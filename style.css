@@ -230,13 +230,13 @@
   @media screen and (min-width: 768px) {
     .grid-container {
         grid-template-columns: 0.7fr 0.7fr 0.7fr .7fr;
-        grid-auto-flow: auto;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
     }
     .grid_child_Container{
       grid-column: 1/4;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr ;
-      grid-auto-rows: auto;
+      grid-row: 1/6;
     
     
       
@@ -269,7 +269,9 @@
       }
       
 .shopping_cart{
-    height: 60vh;
+  grid-column: 4/5;
+    /* height: 60vh; */
+    grid-row: 1/2;
 }
    
       
