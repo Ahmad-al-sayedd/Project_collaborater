@@ -253,10 +253,12 @@
       transform: translateX(-50%);
     }
     .grid-container h1{
-      
-      background-color:transparent;
-  
-      
+      grid-column:1/4 ;
+      text-align: left;
+      margin: 0;
+      width: 95%;
+      margin: 0 auto;
+      background-color: transparent;
       }
   
      .product_Cart_ProductDesc{
@@ -271,7 +273,7 @@
 .shopping_cart{
   grid-column: 4/5;
     /* height: 60vh; */
-    grid-row: 1/2;
+    grid-row: 2/2;
 }
    
       
